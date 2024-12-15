@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>max</span>auto </a>
+
+    <nav class="navbar">
+        <a href="#home">početna</a>
+        <a href="#vehicles">vozila</a>
+        <a href="#services">usluge</a>
+        <a href="#featured">istaknuto</a>
+        <a href="#reviews">recenzije</a>
+        <a href="#contact">kontakt</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">prijava</button>
+        <!-- <i class="far fa-user"></i> -->
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>prijava</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> zaboravili ste lozinku <a href="#">kliknite ovdje</a> </p>
+        <input type="submit" value="prijava" class="btn">
+        <p>ili se prijavite sa</p>
+        <div class="buttons">
+            <a href="#" class="btn"> google </a>
+            <a href="#" class="btn"> facebook </a>
+        </div>
+        <p> nemam racun <a href="#">kreiraj novi</a> </p>
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 class="home-screen">pronađi svoje auto</h3>
+
+    <img class="home-screen" src="image/home-img.png" alt="">
+
+    <a href="#" class="btn home-screen">istraži automobile</a>
+
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>150+</h3>
+            <p>poslovnica</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>4770+</h3>
+            <p>prodanih automobila</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>320+</h3>
+            <p>zadovoljnih klijenata</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+            <h3>1500+</h3>
+            <p>novih automobila</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading"> porsche <span>vozila</span> </h1>
+
+    <div class="swiper vehicles-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-1.png" alt="">
+                <div class="content">
+                    <h3>Carrera 911</h3>
+                    <div class="price"> <span>cijena : </span> KM 130,000/- </div>
+                    <p>
+                        novo
+                        <span class="fas fa-circle"></span> 2021
+                        <span class="fas fa-circle"></span> automatik
+                        <span class="fas fa-circle"></span> benzin
+                        <span class="fas fa-circle"></span> 294kmh
+                    </p>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-2.png" alt="">
+                <div class="content">
+                    <h3>panamera</h3>
+                    <div class="price"> <span>cijena : </span> KM 105,000/- </div>
+                    <p>
+                        novo
+                        <span class="fas fa-circle"></span> 2022
+                        <span class="fas fa-circle"></span> automatik
+                        <span class="fas fa-circle"></span> benzin
+                        <span class="fas fa-circle"></span> 272kmh
+                    </p>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-3.png" alt="">
+                <div class="content">
+                    <h3>panamera</h3>
+                    <div class="price"> <span>cijena : </span> KM 75,000/- </div>
+                    <p>
+                        polovno
+                        <span class="fas fa-circle"></span> 2020
+                        <span class="fas fa-circle"></span> manuelni
+                        <span class="fas fa-circle"></span> dizel
+                        <span class="fas fa-circle"></span> 270kmh
+                    </p>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-4.png" alt="">
+                <div class="content">
+                    <h3>cayman</h3>
+                    <div class="price"> <span>cijena : </span> KM 135,000/- </div>
+                    <p>
+                        novo
+                        <span class="fas fa-circle"></span> 2023
+                        <span class="fas fa-circle"></span> automatik
+                        <span class="fas fa-circle"></span> benzin
+                        <span class="fas fa-circle"></span> 274kmh
+                    </p>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-5.png" alt="">
+                <div class="content">
+                    <h3>boxster</h3>
+                    <div class="price"> <span>cijena : </span> KM 50,000/- </div>
+                    <p>
+                        polovno
+                        <span class="fas fa-circle"></span> 2013
+                        <span class="fas fa-circle"></span> manuelni
+                        <span class="fas fa-circle"></span> benzin
+                        <span class="fas fa-circle"></span> 278kmh
+                    </p>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/vehicle-6.png" alt="">
+                <div class="content">
+                    <h3>cayenne</h3>
+                    <div class="price"> <span>cijena : </span> KM 25,000/- </div>
+                    <p>
+                        polovno
+                        <span class="fas fa-circle"></span> 2009
+                        <span class="fas fa-circle"></span> automatik
+                        <span class="fas fa-circle"></span> dizel
+                        <span class="fas fa-circle"></span> 253kmh
+                    </p>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> naše <span>usluge</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-car"></i>
+            <h3>prodaja automobila</h3>
+            <p>Posjedujemo širok asortiman novih i rabljenih automobila vrhunskih marki. Pomoći ćemo vam da nađete automobil koji odgovara vašim potrebama i budžetu.</p>
+            <a href="#" class="btn"> pročitajte više</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>popravka automobila</h3>
+            <p>Naši stručnjaci su tu da brzo i efikasno riješe sve tehničke probleme vašeg automobila. Nudiimo popravke svih vrsta vozila uz garanciju na obavljene usluge.</p>
+            <a href="#" class="btn"> pročitajte više</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-crash"></i>
+            <h3>osiguranje</h3>
+            <p>U saradnji sa najboljim osiguravajućim kompanijama, nudimo različite vrste osiguranja za vaše vozilo, uključujući obavezno, kasko, i osiguranje od nesreća.</p>
+            <a href="#" class="btn"> pročitajte više</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-car-battery"></i>
+            <h3>zamjena akumulatora</h3>
+            <p>Pružamo uslugu zamjene akumulatora svih tipova vozila. Naš stručni tim brzo će riješiti bilo koji problem sa napajanjem vašeg automobila.</p>
+            <a href="#" class="btn"> pročitajte više</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-gas-pump"></i>
+            <h3>promjena ulja</h3>
+            <p>Redovno mijenjanje ulja ključno je za dugovječnost vašeg vozila. Pružamo uslugu zamjene ulja uz visokokvalitetne proizvode i stručnu uslugu.</p>
+            <a href="#" class="btn"> pročitajte više</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 podrška</h3>
+            <p>Naša korisnička podrška dostupna je 24/7. Bilo da imate hitan problem ili pitanje, tu smo da vam pomognemo u svakom trenutku.</p>
+            <a href="#" class="btn"> pročitajte više</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>istaknuto</span> iz ponude </h1>
+
+    <div class="swiper featured-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/car-1.png" alt="">
+                <div class="content">
+                    <h3>mercedes-Benz SL</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">KM 240,000/-</div>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-2.png" alt="">
+                <div class="content">
+                    <h3>MG essence</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">KM 60,000/-</div>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-3.png" alt="">
+                <div class="content">
+                    <h3>ford focus ST</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">KM 30,000/-</div>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/car-4.png" alt="">
+                <div class="content">
+                    <h3>audi e-tron</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">KM 160,000/-</div>
+                    <a href="#" class="btn">pogledajte</a>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-5.png" alt="">
+                 <div class="content">
+                     <h3>kia sportage</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">KM 55,000/-</div>
+                     <a href="#" class="btn">pogledajte</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-6.png" alt="">
+                 <div class="content">
+                     <h3>Honda civic si</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">KM 35,000/-</div>
+                     <a href="#" class="btn">pogledajte</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-7.png" alt="">
+                 <div class="content">
+                     <h3>kia sorento</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">KM 100,000/-</div>
+                     <a href="#" class="btn">pogledajte</a>
+                 </div>
+             </div>
+ 
+             <div class="swiper-slide box">
+                 <img src="image/car-8.png" alt="">
+                 <div class="content">
+                     <h3>Chevrolet Equinox</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price">KM 40,000/-</div>
+                     <a href="#" class="btn">pogledajte</a>
+                 </div>
+             </div>
+ 
+        </div>
+ 
+        <div class="swiper-pagination"></div>
+ 
+     </div>
+
+</section>
+
+<section class="newsletter">
+    
+    <h3>Pretplatite se za najnovija ažuriranja</h3>
+    <p>Kliknite na gumb Pretplati se kako biste dobili više informacija o novim nadolazećim modelima automobila.</p>
+
+   <form action="">
+        <input type="email" placeholder="unesite svoj email">
+        <input type="submit" value="subscribe">
+   </form>
+
+</section>
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> recenzije <span>klijenata</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <div class="content">
+                    <p>Jedno mjesto za sve vrste automobila.</p>
+                    <h3>Armin Husić</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <div class="content">
+                    <p>Izvrsna usluga i svi automobili dostupni po razumnim cijenama.</p>
+                    <h3>Sara Novak</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <div class="content">
+                    <p>Saloni koji nude sve nove modele automobila.</p>
+                    <h3>Vedran Jovanović</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <div class="content">
+                    <p>Automobili i dijelovi su veoma visoke kvalitete.</p>
+                    <h3>Hana Kovačević</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide box">
+                <img src="image/pic-5.png" alt="">
+                <div class="content">
+                    <p>Za novu servisnu uslugu automobila i dijelove, posjetite nas za najnovije i futurističke modele automobila.</p>
+                    <h3>Emir Topić</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-slide box">
+                <img src="image/pic-6.png" alt="">
+                <div class="content">
+                    <p>Ovo je mjesto koje volim posjećivati. Izvrsna raznolikost automobila uz vrhunsku uslugu.</p>
+                    <h3>Lamija   Ibrahimović</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>kontaktirajte</span> nas</h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2871.5449046144446!2d18.391449915723!3d43.85037797911544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c91f7f69c1ef%3A0x467f7e76c36d8e40!2sVilsonovo%20%C5%A0etali%C5%A1te%2016%2C%20Sarajevo!5e0!3m2!1sen!2sba!4v1699981349827!5m2!1sen!2sba" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                
+        <form action="">
+            <h3>stupite u kontakt</h3>
+            <input type="text" placeholder="vaše ime" class="box">
+            <input type="email" placeholder="vaš email" class="box">
+            <input type="tel" placeholder="predmet" class="box">
+            <textarea placeholder="vaša poruka" class="box" cols="30" rows="10"></textarea>
+            <input type="submit" value="pošaljite poruku" class="btn">
+        </form>        
+
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Naše produžnice</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Sarajevo </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Tuzla </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mostar </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Banja Luka </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Zenica </a>
+        </div>
+        
+        <div class="box">
+            <h3>Brzi linkovi</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Početna </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Vozila </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Usluge </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Istaknuto </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Recenzije </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Kontakt </a>
+        </div>
+        
+        <div class="box">
+            <h3>Kontakt informacije</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +38761/111-111 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +38761/222-222 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> admin@maxauto.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Sarajevo 71000 </a>
+        </div>
+        
+        <div class="box">
+            <h3>Kontakt informacije</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> LinkedIn </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> Pinterest </a>
+        </div>
+        
+        </div>
+        
+        <div class="credit"> &#169; Maxauto | Sva prava zadržana </div>        
+
+</section>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
